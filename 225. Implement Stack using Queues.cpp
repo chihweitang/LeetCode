@@ -34,6 +34,17 @@ public:
     }
 };
 
+
+/*
+top --> bottom
+
+eg. push 1, 2, 3
+
+1
+2, 1
+3, 2, 1
+*/
+
 /**
  * Your MyStack object will be instantiated and called as such:
  * MyStack* obj = new MyStack();
